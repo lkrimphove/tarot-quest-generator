@@ -1,0 +1,400 @@
+{
+  "cards": [
+    {
+      "name": "The Fool",
+      "image": "00-TheFool.jpg",
+      "upright": {
+        "objective": "Embark on a journey of discovery, venturing into the unknown.",
+        "quest_giver": "A carefree traveler who stumbled upon a hidden secret and seeks guidance.",
+        "challenge": "Overcoming the fear of the unknown and taking a leap of faith.",
+        "location": "A mysterious, uncharted territory filled with potential and danger.",
+        "result_or_reward": "A fresh start or new beginning, such as a rare artifact that grants freedom or the chance to embark on a new adventure."
+      },
+      "reversed": {
+        "objective": "Avoid a path of folly, preventing a disastrous misadventure.",
+        "quest_giver": "A trickster who seeks to deceive you into a dangerous or foolish endeavor.",
+        "challenge": "Facing the consequences of reckless actions and poor decisions.",
+        "location": "A chaotic and perilous place where everything seems to go wrong.",
+        "result_or_reward": "A cursed item or a deceptive reward, such as a seemingly beneficial artifact that leads to folly or an item that pulls the user into danger."
+      }
+    },
+    {
+      "name": "The Magician",
+      "image": "01-TheMagician.jpg",
+      "upright": {
+        "objective": "Harness a powerful force or ancient magic to achieve a great goal.",
+        "quest_giver": "A skilled magician or alchemist who seeks an apprentice or assistance in a powerful ritual.",
+        "challenge": "Mastering a difficult skill or controlling a potent magic that could easily go awry.",
+        "location": "A mystical workshop or laboratory filled with arcane tools and ingredients.",
+        "result_or_reward": "A powerful tool or artifact, like a staff of mastery, a ring of command, or a book of spells that grants great knowledge or magical abilities."
+      },
+      "reversed": {
+        "objective": "Expose and thwart a dangerous charlatan or manipulator.",
+        "quest_giver": "A deceitful sorcerer who uses dark magic for selfish purposes and needs your help to acquire more power.",
+        "challenge": "Resisting the temptation to use dark magic or resort to unethical methods.",
+        "location": "A corrupted or cursed magical site where the boundaries of reality are thin.",
+        "result_or_reward": "A dangerous or corrupting artifact, such as a tome of forbidden knowledge, a wand that drains life, or a cursed ring that twists the user’s intentions."
+      }
+    },
+    {
+      "name": "The High Priestess",
+      "image": "02-TheHighPriestess.jpg",
+      "upright": {
+        "objective": "Uncover hidden knowledge or secrets that lie beneath the surface.",
+        "quest_giver": "A wise oracle or seer who seeks to share a vision or prophecy.",
+        "challenge": "Deciphering cryptic messages or symbols to uncover the truth.",
+        "location": "A hidden sanctuary or ancient temple where secrets are guarded.",
+        "result_or_reward": "A secret or hidden knowledge revealed, such as a scroll of lost lore, an ancient prophecy, or an amulet that enhances intuition and insight."
+      },
+      "reversed": {
+        "objective": "Prevent dangerous knowledge from being discovered by the wrong hands.",
+        "quest_giver": "A secretive cultist or sorcerer who hoards forbidden knowledge for personal gain.",
+        "challenge": "Avoiding the lure of forbidden knowledge that could lead to ruin.",
+        "location": "A dark and foreboding crypt or underground lair where forbidden rituals are performed.",
+        "result_or_reward": "A forbidden or dangerous secret, such as knowledge that drives one mad, a cursed artifact that reveals too much, or an amulet that brings visions of doom."
+      }
+    },
+    {
+      "name": "The Empress",
+      "image": "03-TheEmpress.jpg",
+      "upright": {
+        "objective": "Protect or nurture something of great value, such as a kingdom, forest, or community.",
+        "quest_giver": "A benevolent ruler or caretaker who seeks to preserve peace and prosperity.",
+        "challenge": "Balancing nurturing and protection, ensuring growth without becoming overprotective.",
+        "location": "A lush and fertile land, brimming with life and potential.",
+        "result_or_reward": "A gift of life or nature, such as a fertile land, a healing artifact, or a protective charm that brings abundance and prosperity."
+      },
+      "reversed": {
+        "objective": "Stop a force that is draining the land or corrupting nature.",
+        "quest_giver": "A fallen ruler or twisted entity who seeks to exploit natural resources for personal gain.",
+        "challenge": "Facing the consequences of over-nurturing or being too protective, leading to stagnation or decay.",
+        "location": "A withering or corrupted landscape, once fertile but now dying or barren.",
+        "result_or_reward": "A twisted or decaying gift, such as a poisoned chalice, a fruit of everlasting life that causes suffering, or an artifact that brings nature's wrath."
+      }
+    },
+    {
+      "name": "The Emperor",
+      "image": "04-TheEmperor.jpg",
+      "upright": {
+        "objective": "Regain control over a region fallen to chaos or defend a stronghold from invaders.",
+        "quest_giver": "A wise and just ruler who seeks to protect their people from external threats.",
+        "challenge": "Maintaining order and discipline in the face of overwhelming odds.",
+        "location": "A fortified castle or city at the edge of a war-torn frontier.",
+        "result_or_reward": "A symbol of authority or power, such as a crown, a scepter, or a sword of kingship that grants leadership and control."
+      },
+      "reversed": {
+        "objective": "Overthrow a tyrant who rules with an iron fist.",
+        "quest_giver": "A rebellious figure or usurper who seeks to take the throne for themselves.",
+        "challenge": "Dealing with the corrupting influence of power and the temptation to become a tyrant.",
+        "location": "A city or kingdom ruled by a despotic and oppressive regime.",
+        "result_or_reward": "A tyrannical or cursed relic, such as a crown that drives the wearer mad with power, a scepter that corrupts, or a sword that demands bloodshed."
+      }
+    },
+    {
+      "name": "The Hierophant",
+      "image": "05-TheHierophant.jpg",
+      "upright": {
+        "objective": "Restore faith or guide a lost community back to its spiritual roots.",
+        "quest_giver": "A cleric whose community is in dire need of help to overcome a crisis of faith.",
+        "challenge": "Upholding traditions and values in the face of modern challenges.",
+        "location": "A grand temple or ancient holy site where pilgrims gather.",
+        "result_or_reward": "A sacred relic or divine blessing, such as a holy relic, a book of divine wisdom, or a staff that channels holy power."
+      },
+      "reversed": {
+        "objective": "Disrupt a dangerous cult or expose a corrupt religious figure.",
+        "quest_giver": "A cult leader who pays good money using their cult members’ wealth to achieve their own ends.",
+        "challenge": "Questioning and challenging established norms or dogmas that may be corrupt or outdated.",
+        "location": "A secretive cult’s hidden sanctuary, where dark rituals are performed.",
+        "result_or_reward": "A heretical or blasphemous reward, such as a cursed relic, a book of dark rituals, or a staff that draws power from corrupted or forbidden sources."
+      }
+    },
+    {
+      "name": "The Lovers",
+      "image": "06-TheLovers.jpg",
+      "upright": {
+        "objective": "Resolve a conflict between two factions or unite them through diplomacy.",
+        "quest_giver": "A noble figure or diplomat who seeks to bring peace to warring factions.",
+        "challenge": "Navigating complex relationships and ensuring that alliances are formed without betrayal.",
+        "location": "A beautiful and serene garden or neutral meeting place where peace talks are held.",
+        "result_or_reward": "A token of unity or love, such as a blessed ring, a peace treaty, or a powerful alliance that secures future cooperation."
+      },
+      "reversed": {
+        "objective": "Break up a dangerous or toxic alliance before it can cause harm.",
+        "quest_giver": "A spurned lover or bitter rival who seeks vengeance or aims to destroy a relationship for personal gain.",
+        "challenge": "Dealing with betrayal or navigating the fallout of broken alliances.",
+        "location": "A place of betrayal, such as a ruined chapel or battlefield where alliances fell apart.",
+        "result_or_reward": "A cursed or tainted reward, such as a ring that causes jealousy and strife, a treaty that is doomed to fail, or an alliance that leads to future betrayals."
+      }
+    },
+    {
+      "name": "The Chariot",
+      "image": "07-TheChariot.jpg",
+      "upright": {
+        "objective": "Lead a charge against an overwhelming force or accomplish a nearly impossible task.",
+        "quest_giver": "A military leader or champion who seeks a skilled warrior to turn the tide of battle.",
+        "challenge": "Balancing speed and control, ensuring that the mission is accomplished without losing direction.",
+        "location": "A battlefield or arena where victory seems impossible but must be won.",
+        "result_or_reward": "A reward of triumph or honor, such as a medal of valor, a victory chariot, or a steed that enhances speed and power."
+      },
+      "reversed": {
+        "objective": "Stop a runaway force before it causes catastrophic destruction.",
+        "quest_giver": "A vengeful warrior who seeks to use you as a pawn in their quest for personal glory or revenge.",
+        "challenge": "Overcoming internal conflicts or regaining control in a situation spiraling out of control.",
+        "location": "A chaotic or devastated battlefield where order has broken down and chaos reigns.",
+        "result_or_reward": "A destructive or cursed reward, such as a chariot that leads to ruin, a weapon that causes its user to lose control, or a steed that runs wild and causes chaos."
+      }
+    },
+    {
+      "name": "Strength",
+      "image": "08-Strength.jpg",
+      "upright": {
+        "objective": "Tame or control a dangerous beast or overcome a formidable obstacle through sheer willpower.",
+        "quest_giver": "A respected warrior or guardian who seeks someone capable of facing a seemingly insurmountable challenge.",
+        "challenge": "Demonstrating patience and inner strength in the face of physical or emotional trials.",
+        "location": "A wilderness or cave where a powerful beast or natural force must be subdued.",
+        "result_or_reward": "A token of strength or endurance, such as a cloak made from the beast's hide, a ring of resilience, or a weapon that channels inner power."
+      },
+      "reversed": {
+        "objective": "Defeat a force that has overpowered its master and now threatens everything.",
+        "quest_giver": "A broken and desperate figure who has lost control of something powerful and seeks your aid to regain it.",
+        "challenge": "Facing the beast within or struggling with inner demons that threaten to consume you.",
+        "location": "A ruined fortress or a desolate wilderness where a once-controlled force now runs wild.",
+        "result_or_reward": "A cursed or dangerous reward, such as a weapon that saps the user’s strength, a cloak that draws in hostile beasts, or a ring that increases power but causes uncontrollable rage."
+      }
+    },
+    {
+      "name": "The Hermit",
+      "image": "09-TheHermit.jpg",
+      "upright": {
+        "objective": "Seek out hidden wisdom or guidance from a reclusive sage or ancient source.",
+        "quest_giver": "A wise hermit or secluded scholar who offers you the knowledge you seek but at a price.",
+        "challenge": "Finding the truth in solitude or navigating through the darkness to discover hidden knowledge.",
+        "location": "A remote cave or mountain retreat where wisdom lies hidden.",
+        "result_or_reward": "A gem of wisdom or enlightenment, such as a book of ancient knowledge, a lantern that reveals hidden paths, or an amulet that guides you to wisdom."
+      },
+      "reversed": {
+        "objective": "Uncover a dangerous secret kept hidden by those who would prefer it remains buried.",
+        "quest_giver": "A paranoid recluse or mad scholar who seeks to spread their dark knowledge.",
+        "challenge": "Resisting the urge to isolate yourself or succumbing to the darkness within.",
+        "location": "A labyrinthine cave or an abandoned library filled with forbidden or lost knowledge.",
+        "result_or_reward": "A cursed or dangerous truth, such as a book that drives its reader mad, a lantern that reveals horrors, or an amulet that traps the user in a cycle of isolation."
+      }
+    },
+    {
+      "name": "The Wheel of Fortune",
+      "image": "10-WheelOfFortune.jpg",
+      "upright": {
+        "objective": "Seize an opportunity to change your fate or fortune for the better.",
+        "quest_giver": "A mysterious traveler or fortune-teller who offers a chance to alter your destiny.",
+        "challenge": "Navigating the changing tides of fortune and making the most of the opportunities presented.",
+        "location": "A crossroads or wheel-shaped monument where decisions of fate are made.",
+        "result_or_reward": "A boon of fortune, such as a coin of luck, a talisman that alters fate, or a contract that guarantees prosperity."
+      },
+      "reversed": {
+        "objective": "Break free from a cycle of bad luck or misfortune that has plagued you.",
+        "quest_giver": "A desperate gambler or down-on-their-luck figure who seeks to change their fate, often at any cost.",
+        "challenge": "Overcoming the forces of fate that seem to conspire against you.",
+        "location": "A broken or cursed wheel, or a place where luck has run dry.",
+        "result_or_reward": "A cursed token of fortune, such as a coin that brings bad luck, a talisman that twists fate against the user, or a contract that brings doom."
+      }
+    },
+    {
+      "name": "Justice",
+      "image": "11-Justice.jpg",
+      "upright": {
+        "objective": "Restore balance or bring justice to those who have been wronged.",
+        "quest_giver": "A judge or lawmaker who seeks to restore order and fairness in a troubled land.",
+        "challenge": "Upholding justice without letting personal biases cloud judgment.",
+        "location": "A courtroom, a hall of justice, or a battlefield where justice must be served.",
+        "result_or_reward": "A symbol of justice, such as a balanced scale, a sword of truth, or a cloak that shields the innocent."
+      },
+      "reversed": {
+        "objective": "Avenge a wrong or take justice into your own hands when the system fails.",
+        "quest_giver": "A vengeful victim or wronged party who seeks retribution by any means necessary.",
+        "challenge": "Navigating moral gray areas where the lines between right and wrong are blurred.",
+        "location": "A ruined courthouse or a desolate place where justice has been twisted or abandoned.",
+        "result_or_reward": "A symbol of vengeance, such as a bloodied sword, a cursed scale that brings imbalance, or a cloak that hides the guilty."
+      }
+    },
+    {
+      "name": "The Hanged Man",
+      "image": "12-TheHangedMan.jpg",
+      "upright": {
+        "objective": "Make a sacrifice to gain wisdom or insight, or to save others.",
+        "quest_giver": "A sage or martyr who seeks to impart their wisdom or guide you through a difficult decision.",
+        "challenge": "Seeing things from a different perspective or enduring hardship for a greater good.",
+        "location": "A sacred tree or place of hanging, where sacrifices are made and insights are gained.",
+        "result_or_reward": "A revelation or gift of foresight, such as a vision of the future, a pendant that reveals truths, or a symbol of sacrifice that grants protection."
+      },
+      "reversed": {
+        "objective": "Break free from a situation where you are being exploited or sacrificed against your will.",
+        "quest_giver": "A trapped or cursed individual who seeks your help to escape their fate, often at great cost to you.",
+        "challenge": "Overcoming a sense of powerlessness or freeing yourself from a self-imposed trap.",
+        "location": "A place of torment or a cursed site where sacrifices have gone wrong or been forced.",
+        "result_or_reward": "A cursed revelation or insight, such as a vision that haunts, a pendant that traps the wearer, or a symbol of sacrifice that demands more than you can give."
+      }
+    },
+    {
+      "name": "Death",
+      "image": "13-Death.jpg",
+      "upright": {
+        "objective": "Bring about necessary change or end something that no longer serves its purpose.",
+        "quest_giver": "A mysterious figure or guide who leads you to embrace transformation and the end of an old cycle.",
+        "challenge": "Facing the inevitability of change and letting go of the past.",
+        "location": "A battlefield, a graveyard, or a place where something has ended and something new is about to begin.",
+        "result_or_reward": "A symbol of transformation, such as a scythe that clears the old to make way for the new, a relic of rebirth, or a cloak that protects during transitions."
+      },
+      "reversed": {
+        "objective": "Prevent a destructive force from ending something precious or bringing about an unwanted change.",
+        "quest_giver": "A vengeful spirit or necromancer who seeks to use death for personal gain or to cause destruction.",
+        "challenge": "Resisting the pull of destruction or clinging to something that needs to be let go.",
+        "location": "A cursed battlefield or graveyard where the dead do not rest and the past refuses to be buried.",
+        "result_or_reward": "A cursed or destructive relic, such as a scythe that brings only ruin, a relic that causes decay, or a cloak that drags the wearer into darkness."
+      }
+    },
+    {
+      "name": "Temperance",
+      "image": "14-Temperance.jpg",
+      "upright": {
+        "objective": "Restore balance or heal a broken situation or relationship.",
+        "quest_giver": "A healer or mediator who seeks to bring harmony where there is discord.",
+        "challenge": "Maintaining moderation and balance in the face of extremes or conflicts.",
+        "location": "A tranquil oasis, a place of healing, or a meeting point where opposing forces can come together.",
+        "result_or_reward": "A symbol of balance or healing, such as a chalice that restores health, a staff that balances energies, or an amulet of harmony."
+      },
+      "reversed": {
+        "objective": "Stop a force that is causing imbalance or leading to extremes.",
+        "quest_giver": "A fallen healer or corrupt mediator who seeks to use imbalance for personal gain or to cause strife.",
+        "challenge": "Dealing with the consequences of excess or a lack of moderation.",
+        "location": "A place of chaos or imbalance, where the elements are at war or harmony has been lost.",
+        "result_or_reward": "A cursed or disruptive artifact, such as a chalice that poisons, a staff that unbalances, or an amulet that causes discord."
+      }
+    },
+    {
+      "name": "The Devil",
+      "image": "15-TheDevil.jpg",
+      "upright": {
+        "objective": "Break free from a binding contract or overcome a powerful temptation.",
+        "quest_giver": "A tempter or figure who offers great power or wealth at a price, testing your resolve.",
+        "challenge": "Resisting temptation and breaking free from a binding situation or addiction.",
+        "location": "A place of temptation or corruption, such as a dark temple or a luxurious but dangerous lair.",
+        "result_or_reward": "A symbol of freedom or power over temptation, such as a broken chain, a gem of willpower, or a contract that grants release from bindings."
+      },
+      "reversed": {
+        "objective": "Rescue someone or something from a corrupting force before it is too late.",
+        "quest_giver": "A fallen or corrupted figure who seeks to drag others down with them.",
+        "challenge": "Facing the consequences of succumbing to temptation or being trapped in a binding situation.",
+        "location": "A place of deep corruption or entrapment, such as a pit of despair or a fortress of addiction.",
+        "result_or_reward": "A cursed or corrupting artifact, such as a chain that binds the soul, a gem that enslaves the will, or a contract that ensnares the user in eternal servitude."
+      }
+    },
+    {
+      "name": "The Tower",
+      "image": "16-TheTower.jpg",
+      "upright": {
+        "objective": "Survive or prevent a catastrophic event that threatens to destroy everything.",
+        "quest_giver": "A seer or prophet who warns of impending doom and seeks your help to avert disaster.",
+        "challenge": "Facing a sudden and unexpected crisis that forces you to adapt and overcome.",
+        "location": "A crumbling tower, a battlefield struck by disaster, or a city on the brink of collapse.",
+        "result_or_reward": "A symbol of survival or resilience, such as a piece of the fallen tower that grants protection, a relic of fortitude, or a talisman that wards off disaster."
+      },
+      "reversed": {
+        "objective": "Pick up the pieces after a disaster, or exploit the chaos for personal gain.",
+        "quest_giver": "A vulture or opportunist who seeks to profit from the chaos and destruction.",
+        "challenge": "Rebuilding or moving on from a catastrophe that has already occurred.",
+        "location": "A devastated or ruined site where disaster has already struck, leaving chaos in its wake.",
+        "result_or_reward": "A cursed or dangerous relic, such as a piece of the fallen tower that brings bad luck, a relic that causes further destruction, or a talisman that invites disaster."
+      }
+    },
+    {
+      "name": "The Star",
+      "image": "17-TheStar.jpg",
+      "upright": {
+        "objective": "Bring hope and inspiration to those who have lost their way.",
+        "quest_giver": "A visionary or healer who seeks to restore faith and guide others toward a brighter future.",
+        "challenge": "Maintaining optimism and faith in the face of adversity.",
+        "location": "A serene and peaceful location, such as a starry night sky, a tranquil lake, or a place of natural beauty.",
+        "result_or_reward": "A symbol of hope or inspiration, such as a star-shaped amulet, a chalice of light, or a relic that brings healing and guidance."
+      },
+      "reversed": {
+        "objective": "Restore lost hope or rekindle faith in a dark and desolate place.",
+        "quest_giver": "A fallen star or lost soul who seeks redemption or to regain lost light.",
+        "challenge": "Overcoming despair and finding hope in the darkest of times.",
+        "location": "A desolate or forsaken place where hope has been lost, such as a ruined temple, a dark forest, or a barren wasteland.",
+        "result_or_reward": "A tainted or cursed relic, such as a star that dims the light, a chalice that brings despair, or a relic that drains hope from those who possess it."
+      }
+    },
+    {
+      "name": "The Moon",
+      "image": "18-TheMoon.jpg",
+      "upright": {
+        "objective": "Uncover the truth behind illusions or solve a mystery that has eluded others.",
+        "quest_giver": "A mysterious figure or entity who seeks to reveal hidden truths or guide you through the unknown.",
+        "challenge": "Navigating through illusions, deception, or the unknown to find the truth.",
+        "location": "A place of mystery or illusion, such as a fog-shrouded forest, a cave of illusions, or a maze of mirrors.",
+        "result_or_reward": "A symbol of truth or clarity, such as a mirror that reveals true forms, a gem that dispels illusions, or a pendant that guides through darkness."
+      },
+      "reversed": {
+        "objective": "Dispel a dangerous illusion or uncover a truth that has been hidden for too long.",
+        "quest_giver": "A deceived victim or a trickster who seeks to manipulate or use you to achieve their goals.",
+        "challenge": "Overcoming fear or paranoia that clouds your judgment and prevents you from seeing the truth.",
+        "location": "A place where deception reigns, such as a cursed forest, a hall of twisted mirrors, or a dark and foggy moor.",
+        "result_or_reward": "A cursed or dangerous artifact, such as a mirror that traps the soul, a gem that creates illusions, or a pendant that leads into darkness."
+      }
+    },
+    {
+      "name": "The Sun",
+      "image": "19-TheSun.jpg",
+      "upright": {
+        "objective": "Bring light and warmth to a cold or dark place, or spread joy and positivity to those in need.",
+        "quest_giver": "A radiant figure or a sun deity who seeks to spread light and warmth to the world.",
+        "challenge": "Maintaining positivity and spreading joy even in difficult circumstances.",
+        "location": "A bright and warm location, such as a sunlit field, a temple of light, or a place where the sun always shines.",
+        "result_or_reward": "A symbol of light or warmth, such as a sun-shaped amulet, a torch that never goes out, or a cloak that radiates warmth."
+      },
+      "reversed": {
+        "objective": "Dispel darkness or cold that threatens to snuff out the light.",
+        "quest_giver": "A shadowy figure or a being of darkness who seeks to extinguish the light or spread despair.",
+        "challenge": "Overcoming negativity or despair that threatens to extinguish your inner light.",
+        "location": "A cold or dark place where the sun never shines, such as a frozen wasteland, a dark cave, or a place shrouded in eternal night.",
+        "result_or_reward": "A cursed or dangerous artifact, such as a torch that burns the holder, a cloak that drains warmth, or an amulet that spreads darkness."
+      }
+    },
+    {
+      "name": "Judgement",
+      "image": "20-Judgement.jpg",
+      "upright": {
+        "objective": "Help someone face the consequences of their actions or guide them through a difficult decision.",
+        "quest_giver": "A judge, a spirit, or a figure of authority who seeks to bring justice or help someone face their past.",
+        "challenge": "Navigating moral dilemmas and making decisions that have far-reaching consequences.",
+        "location": "A place of judgment or reflection, such as a courtroom, a shrine of judgment, or a crossroads where decisions are made.",
+        "result_or_reward": "A symbol of judgment or reflection, such as a mirror that reveals past deeds, a scale that weighs truth, or a sword that delivers justice."
+      },
+      "reversed": {
+        "objective": "Help someone escape unjust punishment or overcome a wrongful accusation.",
+        "quest_giver": "A wrongfully accused individual or a vengeful spirit who seeks to right a past wrong.",
+        "challenge": "Facing the consequences of past mistakes or overcoming guilt and self-doubt.",
+        "location": "A place of torment or unjust punishment, such as a cursed courtroom, a prison, or a place where past wrongs haunt the present.",
+        "result_or_reward": "A cursed or dangerous relic, such as a mirror that distorts the truth, a scale that brings imbalance, or a sword that delivers unjust punishment."
+      }
+    },
+    {
+      "name": "The World",
+      "image": "21-TheWorld.jpg",
+      "upright": {
+        "objective": "Complete a journey or achieve a long-sought goal that brings fulfillment and closure.",
+        "quest_giver": "A wise elder or a guide who helps you complete your journey and achieve your ultimate goal.",
+        "challenge": "Bringing everything together and achieving balance and harmony in the end.",
+        "location": "A place of completion or culmination, such as a sacred temple, a mountaintop, or a place where all elements come together.",
+        "result_or_reward": "A symbol of fulfillment or unity, such as a crown of achievement, a staff that balances all elements, or a relic that represents the unity of all things."
+      },
+      "reversed": {
+        "objective": "Overcome a sense of incompletion or failure, or help someone find closure in an unfinished matter.",
+        "quest_giver": "A lost soul or a figure who seeks to finish something left incomplete, often at great personal cost.",
+        "challenge": "Facing the consequences of something left undone or a goal not achieved.",
+        "location": "A place of incompletion or imbalance, such as a ruined temple, an unfinished monument, or a place where the elements are out of balance.",
+        "result_or_reward": "A cursed or incomplete relic, such as a crown that brings burden, a staff that unbalances the elements, or a relic that represents fragmentation and discord."
+      }
+    }
+  ]
+}
