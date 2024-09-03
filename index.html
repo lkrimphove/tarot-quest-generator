@@ -1,23 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot Quest Generator</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarot Quest Generator</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/chomsky" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/calling-code" rel="stylesheet" />
 </head>
+
 <body>
-    <div class="container">
-        <h1>Tarot Quest Generator</h1>
-        <button id="generateButton">Generate New Quest</button>
-        <div id="questDisplay" class="quest-display">
-            <div class="card-display" id="card1"></div>
-            <div class="card-display" id="card2"></div>
-            <div class="card-display" id="card3"></div>
-            <div class="card-display" id="card4"></div>
-            <div class="card-display" id="card5"></div>
-        </div>
+  <header>
+    <a href="index.html">
+      <h1>Tarot Quest Generator</h1>
+    </a>
+  </header>
+
+  <main>
+    <div id="controls">
+      <div class="control">
+        <input type="checkbox" id="reuseCardsCheckbox" class="checkbox" />
+        <label for="reuseCardsCheckbox"> Reuse Cards </label>
+      </div>
+      <div class="control">
+        <input type="checkbox" id="excludeReversedCheckbox" class="checkbox" />
+        <label for="excludeReversedCheckbox"> Exclude Reversed </label>
+      </div>
+      <button id="generateButton" class="button">
+        Embark On A New Quest
+      </button>
     </div>
-    <script src="script.js"></script>
+    <div id="questDisplay"></div>
+  </main>
+
+  <footer id="footer">
+    <div id="footer-links">
+      <a href="impressum.html">Impressum - Legal Notice</a> |
+      <a href="about-help.html">About & Help</a> |
+      <a href="https://github.com/lkrimphove/tarot-quest-generator">GitHub</a> |
+      <a href="https://buymeacoffee.com/lkrimphove">Buy Me a Coffee</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

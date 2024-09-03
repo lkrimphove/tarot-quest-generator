@@ -18,14 +18,26 @@ The generator uses tarot cards to answer five key questions, helping you craft a
 4. **Location**: Where does the quest take place?
 5. **Result Or Reward**: What is the outcome or reward for completing the quest?
 
-<!-- ## Usage
+## Usage
 
-Simply visit the [Tarot Quest Generator](#) website, draw your tarot cards, and discover your next adventure. The tool is easy to use and provides clear, concise prompts that can be adapted to any game system. -->
+Simply visit the [Tarot Quest Generator](https://ttrpg.krimphove.site) website, draw your tarot cards, and discover your next adventure. The tool is easy to use and provides you with prompts that can be adapted to any game system.
+
+## Future Improvements
+
+- Improve the card prompts (currently most of them are ai-generated placeholders and some are quite similiar to each other).
+- Create a custom tarot card deck to better fit the grim dark nature of the generator.
+- Refactor and polish code and improve the websites design where necessary.
+- Translate content and add support for different languages.
+- Build a Tarot Character Generator.
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for new features or improvements, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you found a bug or have ideas for new features or improvements, feel free to open an issue or submit a pull request.
 
 ---
 
 Enjoy crafting dark and mysterious adventures with the Tarot Quest Generator!
+
+---
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/lkrimphove)
