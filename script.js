@@ -88,8 +88,8 @@ function generateCardElement(deck, index) {
     const cardImage = cardElement.querySelector(".card-image");
     let isReversed = cardImage.classList.toggle("reversed");
     const newMeaning = isReversed
-      ? card.upright[questions[index].toLowerCase().replace(/\s+/g, "_")]
-      : card.reversed[questions[index].toLowerCase().replace(/\s+/g, "_")];
+      ? card.reversed[questions[index].toLowerCase().replace(/\s+/g, "_")]
+      : card.upright[questions[index].toLowerCase().replace(/\s+/g, "_")];
 
     cardElement.querySelector("h3").textContent = `${card.name} (${
       isReversed ? "U" : "R"
