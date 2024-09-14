@@ -194,3 +194,14 @@ a:hover {
 .card-meaning-group li {
   margin-bottom: 16px;
 }
+
+.mb-logo {
+  filter: invert(1);
+  max-width: 25%;
+  padding: 16px;
+  margin: auto;
+}
+
+.mb-license {
+  display: flex;
+}

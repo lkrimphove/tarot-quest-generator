@@ -1,6 +1,6 @@
 # Tarot Quest Generator
 
-**Tarot Quest Generator** is a tool designed to inspire and generate quests for tabletop role-playing games. Whether you're crafting adventures for a grim dark setting like Mörk Borg or any other world of your creation, this generator provides a wealth of prompts using tarot cards.
+**Tarot Quest Generator** is a tool designed to inspire and generate quests for tabletop role-playing games. Whether you're crafting adventures for a grim dark setting like [MÖRK BORG](https://morkborg.com) or any other world of your creation, this generator provides a wealth of prompts using tarot cards.
 
 ## Features
 
@@ -33,6 +33,14 @@ Simply visit the [Tarot Quest Generator](https://ttrpg.krimphove.site) website, 
 ## Contributing
 
 Contributions are welcome! If you found a bug or have ideas for new features or improvements, feel free to open an issue or submit a pull request.
+
+## Licensing
+
+This project is dual-licensed under the MIT License and the MÖRK BORG Third-Party License.
+
+- All source code is available under the [MIT License](./LICENSE).
+- The specific creative content related to MÖRK BORG follows the [MÖRK BORG Third-Party License](./LICENSE_MORK_BORG).
+
 
 ---
 
