@@ -1,22 +1,15 @@
-const questions = [
-  "Objective",
-  "Quest Giver",
-  "Challenge",
-  "Location",
-  "Result Or Reward",
-];
+// Load tarot cards on page load
+document.addEventListener("DOMContentLoaded", () => {
+  // Disable the generate button until cards are loaded
+  const generateButton = document.getElementById("generateButton");
+  generateButton.disabled = true;
 
-let cards = [];
-
-// Load the JSON file and populate the tarotDeck array
-fetch("cards.json")
-  .then((response) => response.json())
-  .then((data) => {
-    cards = data.cards;
-    document.getElementById("generateButton").disabled = false;
+  // Load tarot cards using the utility function
+  loadCards(() => {
+    generateButton.disabled = false;
     generateQuest();
-  })
-  .catch((error) => console.error("Error loading JSON:", error));
+  });
+});
 
 document
   .getElementById("generateButton")
@@ -40,7 +33,7 @@ function generateCardElement(deck, index) {
     "excludeReversedCheckbox"
   ).checked;
 
-  if (deck.length <= 0 ||reuseCards) {
+  if (deck.length <= 0 || reuseCards) {
     deck = [...cards];
   }
 
@@ -49,9 +42,9 @@ function generateCardElement(deck, index) {
   const isReversed = Math.random() > 0.5 && !excludeReversed;
   const cardName = `${card.name} (${isReversed ? "R" : "U"})`;
   const cardMeaning = isReversed
-    ? card.reversed[questions[index].toLowerCase().replace(/\s+/g, "_")]
-    : card.upright[questions[index].toLowerCase().replace(/\s+/g, "_")];
-  const question = questions[index];
+    ? card.reversed[aspects[index].toLowerCase().replace(/\s+/g, "_")]
+    : card.upright[aspects[index].toLowerCase().replace(/\s+/g, "_")];
+  const aspect = aspects[index];
   const imagePath = `assets/cards/${card.image}`;
 
   if (!reuseCards) {
@@ -61,10 +54,10 @@ function generateCardElement(deck, index) {
   const cardElement = document.createElement("div");
   cardElement.classList.add("card");
   cardElement.innerHTML = `
-    <h2>${question}</h2>
+    <h2>${aspect}</h2>
     <img
       src="${imagePath}" alt="${card.name}"
-      class="card-image ${isReversed ? "reversed" : ""}"
+      class="card-image pointable ${isReversed ? "reversed" : ""}"
     >
     <h3>${cardName}</h3>
     <p>${cardMeaning}</p>
@@ -75,8 +68,9 @@ function generateCardElement(deck, index) {
     </div>
   `;
 
-  cardElement.querySelector(".info-btn").addEventListener("click", () => {
-    alert(`More info about ${card.name} coming soon.`);
+  const cardImage = cardElement.querySelector(".card-image");
+  cardImage.addEventListener("click", () => {
+    showCardOverlay(card);
   });
 
   cardElement.querySelector(".reroll-btn").addEventListener("click", () => {
@@ -88,8 +82,8 @@ function generateCardElement(deck, index) {
     const cardImage = cardElement.querySelector(".card-image");
     let isReversed = cardImage.classList.toggle("reversed");
     const newMeaning = isReversed
-      ? card.reversed[questions[index].toLowerCase().replace(/\s+/g, "_")]
-      : card.upright[questions[index].toLowerCase().replace(/\s+/g, "_")];
+      ? card.reversed[aspects[index].toLowerCase().replace(/\s+/g, "_")]
+      : card.upright[aspects[index].toLowerCase().replace(/\s+/g, "_")];
 
     cardElement.querySelector("h3").textContent = `${card.name} (${
       isReversed ? "U" : "R"
