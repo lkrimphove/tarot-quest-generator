@@ -177,6 +177,20 @@ a:hover {
   transform: rotate(180deg);
 }
 
+.card-image.pointable {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card-image.pointable:hover {
+  transform: scale(1.05);
+  border: 1px solid #ccc;
+}
+
+.card-image.reversed.pointable:hover {
+  transform: rotate(180deg) scale(1.05);
+}
+
 .card-meaning-group li {
   margin-bottom: 16px;
 }
