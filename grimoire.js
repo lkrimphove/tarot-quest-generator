@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="assets/cards/${card.image}" alt="${card.name}" class="card-image pointable" />
             `;
             cardElement.addEventListener('click', () => {
-                showCardOverlay(card);
+                showCardDetails(card);
             });
             cardGrid.appendChild(cardElement);
         });

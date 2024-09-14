@@ -26,34 +26,18 @@
     </header>
 
     <main>
-        <h2>Help</h2>
+        <h2 id="card-name"></h2>
         <section>
-            <h3>How It Works</h3>
-            <p>The generator uses tarot cards to answer five key questions, helping you craft a fully-fledged quest:</p>
-            <ul>
-                <li><strong>Objective:</strong> What is the main goal or theme of the quest?</li>
-                <li><strong>Quest Giver:</strong> Who initiates the quest or seeks the player's help?</li>
-                <li><strong>Challenge:</strong> What significant obstacle or challenge must the player overcome?</li>
-                <li><strong>Location:</strong> Where does the quest take place?</li>
-                <li><strong>Result Or Reward:</strong> What is the outcome or reward for completing the quest?</li>
-            </ul>
-            <p>Cards can have one of two orientations (upright or reversed - you can also turn this off). Each of them
-                has a
-                different meaning. In general reversed cards have a darker tone to them.</p>
-            <p>You can reverse or reroll cards as many times as you want to - or you can generate a completely new
-                quest. When you are happy with your cards you interpret them and adapt them to your game. Then all you
-                have left to do is let your players suffer</p>
+            <p id="card-description"></p>
+            <img id="card-image" class="card-image" />
         </section>
         <section>
-            <h3>Found a Bug?</h3>
-            <p>If you found a bug or would like to request a feature please check the <a
-                    href="https://github.com/lkrimphove/tarot-quest-generator/issues" class="text-link">GitHub repo</a>
-                if there already
-                is an
-                open issue. If you can't find one, please create one!</p>
-            <p>If you have the skills and the time to spare feel free to fix the bug/implement the feature. Each pull
-                request or any other form of contribution is highly appreciated!</p>
-            <p>Thank you!</p>
+            <h3>Upright</h3>
+            <div id="upright-meanings" class="card-meaning-group"></div>
+        </section>
+        <section>
+            <h3>Reversed</h3>
+            <div id="reversed-meanings" class="card-meaning-group"></div>
         </section>
     </main>
 
@@ -64,6 +48,9 @@
             <a href="https://buymeacoffee.com/lkrimphove">Buy Me a Coffee</a>
         </div>
     </footer>
+
+    <script src="card-utils.js"></script>
+    <script src="card-detail.js"></script>
 </body>
 
 </html>

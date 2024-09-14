@@ -3,6 +3,7 @@
     {
       "name": "The Fool",
       "image": "00-TheFool.jpg",
+      "description": "The Fool represents new beginnings, innocence, and a free spirit. This card embodies spontaneity and the embrace of life’s adventures without fear. It’s the symbol of taking a leap into the unknown with trust in the journey ahead.",
       "upright": {
         "objective": "Embark on a journey of discovery, venturing into the unknown.",
         "quest_giver": "A carefree traveler who stumbled upon a hidden secret and seeks guidance.",
@@ -21,6 +22,7 @@
     {
       "name": "The Magician",
       "image": "01-TheMagician.jpg",
+      "description": "The Magician signifies power, skill, and resourcefulness. This card represents the ability to turn ideas into reality, using knowledge and skill to shape one’s destiny. It's a reminder to harness inner potential and take control of life’s opportunities.",
       "upright": {
         "objective": "Harness a powerful force or ancient magic to achieve a great goal.",
         "quest_giver": "A skilled magician or alchemist who seeks an apprentice or assistance in a powerful ritual.",
@@ -39,6 +41,7 @@
     {
       "name": "The High Priestess",
       "image": "02-TheHighPriestess.jpg",
+      "description": "The High Priestess embodies mystery, intuition, and wisdom. She represents the unseen forces and hidden knowledge, urging trust in one’s intuition and the ability to look beyond the surface for deeper truths.",
       "upright": {
         "objective": "Uncover hidden knowledge or secrets that lie beneath the surface.",
         "quest_giver": "A wise oracle or seer who seeks to share a vision or prophecy.",
@@ -57,6 +60,7 @@
     {
       "name": "The Empress",
       "image": "03-TheEmpress.jpg",
+      "description": "The Empress is a symbol of creation, fertility, and abundance. Representing the nurturing mother figure, this card signifies growth, beauty, and the nurturing of ideas, relationships, and environments.",
       "upright": {
         "objective": "Protect or nurture something of great value, such as a kingdom, forest, or community.",
         "quest_giver": "A benevolent ruler or caretaker who seeks to preserve peace and prosperity.",
@@ -75,6 +79,7 @@
     {
       "name": "The Emperor",
       "image": "04-TheEmperor.jpg",
+      "description": "The Emperor stands for authority, structure, and control. As a symbol of stability and leadership, he represents power and the strength of will needed to maintain order and take charge of situations.",
       "upright": {
         "objective": "Regain control over a region fallen to chaos or defend a stronghold from invaders.",
         "quest_giver": "A wise and just ruler who seeks to protect their people from external threats.",
@@ -93,6 +98,7 @@
     {
       "name": "The Hierophant",
       "image": "05-TheHierophant.jpg",
+      "description": "The Hierophant represents tradition, wisdom, and spiritual guidance. He symbolizes the importance of learning from established systems and seeking the counsel of a higher authority, embodying the wisdom of history and institutions.",
       "upright": {
         "objective": "Restore faith or guide a lost community back to its spiritual roots.",
         "quest_giver": "A cleric whose community is in dire need of help to overcome a crisis of faith.",
@@ -111,6 +117,7 @@
     {
       "name": "The Lovers",
       "image": "06-TheLovers.jpg",
+      "description": "The Lovers card speaks of relationships, choices, and unity. It reflects the powerful bonds of love and connection but also the need to make decisions that align with personal values and desires.",
       "upright": {
         "objective": "Resolve a conflict between two factions or unite them through diplomacy.",
         "quest_giver": "A noble figure or diplomat who seeks to bring peace to warring factions.",
@@ -129,6 +136,7 @@
     {
       "name": "The Chariot",
       "image": "07-TheChariot.jpg",
+      "description": "The Chariot represents determination, focus, and the will to succeed. It is the symbol of overcoming obstacles and driving forward with confidence. This card reflects victory through discipline and control.",
       "upright": {
         "objective": "Lead a charge against an overwhelming force or accomplish a nearly impossible task.",
         "quest_giver": "A military leader or champion who seeks a skilled warrior to turn the tide of battle.",
@@ -147,6 +155,7 @@
     {
       "name": "Strength",
       "image": "08-Strength.jpg",
+      "description": "Strength embodies courage, compassion, and inner resilience. This card is not about physical force but the quiet strength that comes from patience, self-control, and the ability to handle life’s challenges with grace.",
       "upright": {
         "objective": "Tame or control a dangerous beast or overcome a formidable obstacle through sheer willpower.",
         "quest_giver": "A respected warrior or guardian who seeks someone capable of facing a seemingly insurmountable challenge.",
@@ -165,6 +174,7 @@
     {
       "name": "The Hermit",
       "image": "09-TheHermit.jpg",
+      "description": "The Hermit represents solitude, introspection, and the quest for inner knowledge. It symbolizes the need to withdraw from the world to gain deeper understanding and insight, guiding the path toward enlightenment.",
       "upright": {
         "objective": "Seek out hidden wisdom or guidance from a reclusive sage or ancient source.",
         "quest_giver": "A wise hermit or secluded scholar who offers you the knowledge you seek but at a price.",
@@ -183,6 +193,7 @@
     {
       "name": "The Wheel of Fortune",
       "image": "10-WheelOfFortune.jpg",
+      "description": "The Wheel of Fortune signifies cycles, fate, and the ever-turning wheel of life. It speaks to the inevitability of change and the need to adapt to life's ups and downs, trusting that fortune will shift in time.",
       "upright": {
         "objective": "Seize an opportunity to change your fate or fortune for the better.",
         "quest_giver": "A mysterious traveler or fortune-teller who offers a chance to alter your destiny.",
@@ -201,6 +212,7 @@
     {
       "name": "Justice",
       "image": "11-Justice.jpg",
+      "description": "Justice embodies fairness, balance, and the consequences of actions. This card reminds us that truth and accountability are central, urging us to weigh choices carefully and act with integrity.",
       "upright": {
         "objective": "Restore balance or bring justice to those who have been wronged.",
         "quest_giver": "A judge or lawmaker who seeks to restore order and fairness in a troubled land.",
@@ -219,6 +231,7 @@
     {
       "name": "The Hanged Man",
       "image": "12-TheHangedMan.jpg",
+      "description": "The Hanged Man signifies surrender, perspective, and letting go. It represents a pause in life where new insights can be gained by seeing things from a different viewpoint, urging a break from the usual to achieve clarity.",
       "upright": {
         "objective": "Make a sacrifice to gain wisdom or insight, or to save others.",
         "quest_giver": "A sage or martyr who seeks to impart their wisdom or guide you through a difficult decision.",
@@ -237,6 +250,7 @@
     {
       "name": "Death",
       "image": "13-Death.jpg",
+      "description": "Death represents transformation, endings, and rebirth. This card is not about literal death, but rather the closing of one chapter and the opportunity for renewal, making way for new growth and change.",
       "upright": {
         "objective": "Bring about necessary change or end something that no longer serves its purpose.",
         "quest_giver": "A mysterious figure or guide who leads you to embrace transformation and the end of an old cycle.",
@@ -255,6 +269,7 @@
     {
       "name": "Temperance",
       "image": "14-Temperance.jpg",
+      "description": "Temperance speaks of balance, patience, and harmony. It encourages moderation and the blending of opposites to create a sense of unity and peace, urging us to avoid extremes and find the middle path.",
       "upright": {
         "objective": "Restore balance or heal a broken situation or relationship.",
         "quest_giver": "A healer or mediator who seeks to bring harmony where there is discord.",
@@ -273,6 +288,7 @@
     {
       "name": "The Devil",
       "image": "15-TheDevil.jpg",
+      "description": "The Devil represents temptation, materialism, and entrapment. This card highlights the chains we place on ourselves through unhealthy attachments, urging self-awareness to break free from limiting behaviors and desires.",
       "upright": {
         "objective": "Break free from a binding contract or overcome a powerful temptation.",
         "quest_giver": "A tempter or figure who offers great power or wealth at a price, testing your resolve.",
@@ -291,6 +307,7 @@
     {
       "name": "The Tower",
       "image": "16-TheTower.jpg",
+      "description": "The Tower symbolizes sudden upheaval, chaos, and destruction. It represents the tearing down of false foundations, making way for a new beginning. While disruptive, it’s necessary for profound change and growth.",
       "upright": {
         "objective": "Survive or prevent a catastrophic event that threatens to destroy everything.",
         "quest_giver": "A seer or prophet who warns of impending doom and seeks your help to avert disaster.",
@@ -309,6 +326,7 @@
     {
       "name": "The Star",
       "image": "17-TheStar.jpg",
+      "description": "The Star stands for hope, inspiration, and spiritual renewal. It is a symbol of optimism and healing, encouraging faith in the future and guiding toward a brighter, more meaningful path.",
       "upright": {
         "objective": "Bring hope and inspiration to those who have lost their way.",
         "quest_giver": "A visionary or healer who seeks to restore faith and guide others toward a brighter future.",
@@ -327,6 +345,7 @@
     {
       "name": "The Moon",
       "image": "18-TheMoon.jpg",
+      "description": "The Moon represents illusions, intuition, and the subconscious. It speaks to the unseen forces at work and the importance of looking beyond the surface, urging trust in inner instincts to navigate uncertainty.",
       "upright": {
         "objective": "Uncover the truth behind illusions or solve a mystery that has eluded others.",
         "quest_giver": "A mysterious figure or entity who seeks to reveal hidden truths or guide you through the unknown.",
@@ -345,6 +364,7 @@
     {
       "name": "The Sun",
       "image": "19-TheSun.jpg",
+      "description": "The Sun radiates positivity, success, and joy. It reflects the clarity and vitality that comes from enlightenment and self-awareness, offering warmth, happiness, and the promise of brighter days.",
       "upright": {
         "objective": "Bring light and warmth to a cold or dark place, or spread joy and positivity to those in need.",
         "quest_giver": "A radiant figure or a sun deity who seeks to spread light and warmth to the world.",
@@ -363,6 +383,7 @@
     {
       "name": "Judgement",
       "image": "20-Judgement.jpg",
+      "description": "Judgement signifies rebirth, renewal, and evaluation. It calls for reflection on past actions and choices, urging one to embrace personal growth and transformation, moving forward with new clarity.",
       "upright": {
         "objective": "Help someone face the consequences of their actions or guide them through a difficult decision.",
         "quest_giver": "A judge, a spirit, or a figure of authority who seeks to bring justice or help someone face their past.",
@@ -381,6 +402,7 @@
     {
       "name": "The World",
       "image": "21-TheWorld.jpg",
+      "description": "The World represents completion, achievement, and fulfillment. This card marks the end of a cycle and the beginning of new ventures, symbolizing the satisfaction that comes from reaching one’s goals and attaining harmony.",
       "upright": {
         "objective": "Complete a journey or achieve a long-sought goal that brings fulfillment and closure.",
         "quest_giver": "A wise elder or a guide who helps you complete your journey and achieve your ultimate goal.",

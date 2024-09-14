@@ -70,7 +70,7 @@ function generateCardElement(deck, index) {
 
   const cardImage = cardElement.querySelector(".card-image");
   cardImage.addEventListener("click", () => {
-    showCardOverlay(card);
+    showCardDetails(card);
   });
 
   cardElement.querySelector(".reroll-btn").addEventListener("click", () => {
